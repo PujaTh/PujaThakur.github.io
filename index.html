@@ -1,16 +1,164 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Portfolio</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puja - Portfolio</title>
   <style>
-    body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
-    h1 { color: #333; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    header p {
+      margin: 5px 0;
+    }
+    section {
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+      margin-top: 40px;
+      color: #444;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+    .job {
+      margin-bottom: 25px;
+    }
+    .job h3 {
+      margin-bottom: 5px;
+      color: #2c3e50;
+    }
+    .job span {
+      font-size: 0.9em;
+      color: #777;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+      background: #333;
+      color: white;
+    }
   </style>
 </head>
 <body>
-  <h1>Hello, I'm Puja Thakur</h1>
-  <p>Welcome to my portfolio!</p>
+
+  <header>
+    <h1>Puja</h1>
+    <p>📞 905-588-1879 | 📧 <a href="mailto:Pujathakur946@gmail.com" style="color: #fff;">Pujathakur946@gmail.com</a></p>
+  </header>
+
+  <section>
+    <h2>Objective</h2>
+    <ul>
+      <li>Motivated and skilled IT professional with 9 years of experience in software development.</li>
+      <li>Seeking opportunities to grow within a dynamic team, committed to excellence, and to make a meaningful impact while embracing the diverse and inclusive work culture of Canada.</li>
+    </ul>
+
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><b>Primary:</b> C++ (C++11, C++14, C++17, C++20), STL, OOPS, Multithreading/Concurrency, Python</li>
+      <li><b>Secondary:</b> C#, MFC, Win32, XML (Flexible to learn anything new)</li>
+      <li>Exposure: Python and Docker development</li>
+      <li><b>Tools/Technologies:</b> UML, GitHub, Git, Visual Studio, SQL, TFS, Jira, Confluence, SVN, ClearCase, VMware, Windbg, MSSQL, MakeFiles, VS Code, Postman, OpenLens, AWS CLI, AWS S3, ECR, EC2, IAM</li>
+      <li><b>Other:</b> Azure fundamentals, Agile workflows, Unit Testing, Debugging</li>
+    </ul>
+
+    <h2>Professional Experience</h2>
+
+    <div class="job">
+      <h3>Roche (Mississauga, Canada) <span>Nov 2024 – Present</span></h3>
+      <p><b>Senior Engineer (Apexon)</b></p>
+      <ul>
+        <li>Developing high-performance REST API calls to C++ Library using Python bindings in Linux (gcc, make, cmake, gdb).</li>
+        <li>Worked on Dockerizing legacy C++ multithreaded library and integrating with main application.</li>
+        <li>Implemented CI/CD with Jenkins, automated builds via shell scripts, and code coverage integration.</li>
+        <li>Worked with Flask (Python) and Ulfius (C++) for RESTful APIs.</li>
+        <li>Recognition: <b>Client Trailblazer Award</b> for outstanding contributions at Roche.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Philips Innovations (Bangalore, India) <span>Apr 2023 – Nov 2024</span></h3>
+      <p><b>Software Technologist</b></p>
+      <ul>
+        <li>Enhanced ultrasound imaging workflows in TDD environment.</li>
+        <li>Developed high-performance DICOM parsers and Quad display integration using DCMTK and GDCM.</li>
+        <li>Built C++/C# modules for Backup/Restore & User Configurations; worked on WPF defects for UI fixes.</li>
+        <li>Implemented PKCS#11-based secure key management for patient imaging data security.</li>
+        <li>Recognition: Hackathon participation (2023) and fastest quality delivery in PI.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Software Engineer II <span>Aug 2021 – Apr 2023</span></h3>
+      <ul>
+        <li>Developed user management, audit trails (C#), and hardware monitoring modules.</li>
+        <li>Implemented PKCS#12 secure certificate handling for device–server communications.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Siemens Healthineers (Bangalore, India) <span>Aug 2019 – Aug 2021</span></h3>
+      <p><b>Software Developer</b></p>
+      <ul>
+        <li>Enhanced security features of Syngo platform (adopted by CT, MR, US, etc.).</li>
+        <li>Involved in 32-bit to 64-bit migration and Flex License integration.</li>
+        <li>Exposure to HL7 and DICOM standards.</li>
+        <li>Awarded “Pat on The Back” for solving critical password corruption issue.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Mindtree Limited (Bangalore, India) <span>Nov 2016 – Jul 2019</span></h3>
+      <p><b>Senior Software Engineer / Software Engineer</b></p>
+      <ul>
+        <li>Developed C++ desktop app features for backup/restore and user management.</li>
+        <li>Implemented encryption/decryption (RSA/AES) for secure file transfers.</li>
+        <li>Developed gRPC-based Client–Server communication in C++/CLI.</li>
+        <li>Recognition: “HATS OFF” & “A-Team” awards for critical bug fixes and teamwork.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Intern – Tech Media & Services <span>Mar 2016 – May 2016</span></h3>
+      <ul>
+        <li>Worked on integrating NUSE (network user-space stack) with Mindtree’s Bluetooth stack.</li>
+        <li>Recognition: “HATS OFF” and “A-Team” awards for exceptional work.</li>
+      </ul>
+    </div>
+
+    <h2>Personal Details</h2>
+    <ul>
+      <li><b>Full Name:</b> Puja</li>
+      <li><b>Date of Birth:</b> 10th July 1994</li>
+      <li><b>Status:</b> Canadian PR Holder</li>
+      <li><b>Nationality:</b> Indian</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Puja | Portfolio</p>
+  </footer>
+
 </body>
 </html>
